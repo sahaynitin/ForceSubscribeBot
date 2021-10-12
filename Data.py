@@ -11,7 +11,7 @@ Welcome to {}
 I can force your group's users to join a particular chat.\n
 The chat can be a group or channel. It can be private or public.
 
-Click on How to Use Me Button to Know learn more !
+Click on How to Use Me Button to learn more !
 
 Made With 💕 By @Tellybots_4u
     """
