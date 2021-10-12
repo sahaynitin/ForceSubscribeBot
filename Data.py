@@ -11,25 +11,25 @@ Welcome to {}
 I can force your group's users to join a particular chat. 
 The chat can be a group or channel. It can be private or public.
 
-Use below buttons to learn more !
+Click on How to Use Me Button to Know learn more !
 
-By @StarkBots
+Made With 💕 By @Tellybots_4u
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="🏡 Return Home", callback_data="home")],
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("🤖 Update Channel", url="https://t.me/tellybots_4u")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("How to Use me ❔", callback_data="help"),
+            InlineKeyboardButton("👲 About", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("💬 Support Group", url="https://t.me/tellybots_support")],
+        [InlineKeyboardButton("🚦 Bot Status", url="https://t.me/tellybots_support")],
     ]
 
     # Help Message
@@ -45,7 +45,7 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
 
 5) You are good to go. Leave the rest to me.
 
-✨ **Available Commands** ✨
+ **Available Commands** 
 
 /fsub - See current force subscribe chat
 /fsub chat_id/username - Force users to join the particular chat
@@ -60,15 +60,15 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**About Me** 
 
-A telegram force subscribing bot by @StarkBots
+👲 Maintained by : [Tellybots4u](https://t.me/Tellybots_4u)
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/ForceSubscribeBot)
+⚗️ Source Code : [Click Here](https://t.me/tellybots_digital)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+🗃️ Framework : [Pyrogram](docs.pyrogram.org)
 
-Language : [Python](www.python.org)
+📚 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+🧒 Developer : @Tellybots_4u
     """
